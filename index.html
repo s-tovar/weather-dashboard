@@ -14,28 +14,28 @@
     </header>
 
 <main>
-    <form id="search">
-        <label for="city-input">City:</label>
-        <input type="text" id="city-input" name="city" placeholder="Enter city">
-        <button type="submit" id="search-btn">Search</button>
-    </form>
+    <div class="container">
+        <div class="left-panel">
+            <form id="search">
+                <label for="city-input">City:</label>
+                <input type="text" id="city-input" name="city" placeholder="Enter city">
+                <button type="submit" id="search-btn">Search</button>
+            </form>
+    
+            <section id="search-history"></section>
+        </div>
 
-    <form id="search">
-        <label for="state-input">State:</label>
-        <input type="text" id="state-input" name="state" placeholder="Enter state">
-        <button type="submit" id="search-btn">Search</button>
-    </form>
-
-    <section id="weather-details"></section>
-
-    <section id="search-history"></section>
-
-    <section id="current-weather"></section>
-
-    <section id="forecast">
-        <h2>5-Day Forecast</h2>
-        <div id="forecast-card"></div>
-    </section>
+    <div class="right-panel">
+    
+        <section id="weather-details"></section>
+    
+        <section id="current-weather"></section>
+    
+        <section id="forecast">
+            <h2>5 - Day Forecast</h2>
+            <div id="forecast-card"></div>
+        </section>
+    </div>
 </main>
 <script src="./assets/script.js"></script>
 </body>
