@@ -10,7 +10,7 @@ Link: https://s-tovar.github.io/weather-dashboard/
 
 ## Screenshot 
 
-![plot](./assets/Screenshot%202023-05-01%20at%209.57.11%20PM.png)
+![plot](./assets/images/Screenshot%202023-05-12%20at%2010.50.09%20AM.png)
 
 ## Insallation
 
